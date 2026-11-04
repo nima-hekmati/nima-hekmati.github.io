@@ -1,6 +1,6 @@
 # Nima Hekmati Farid — Personal Academic & Research Website
 
-This is the source code for your personal website, ready to be deployed to **GitHub Pages** at **`nimahekmati.github.io`**.
+This is the source code for your personal website, ready to be deployed to **GitHub Pages** at **`nima-hekmati.github.io`**.
 
 ---
 
@@ -15,40 +15,20 @@ This is the source code for your personal website, ready to be deployed to **Git
 
 ---
 
-## 🚀 How to Deploy to GitHub Pages (Under 1 Minute)
-
-### Option A: If you create a repo named `nimahekmati.github.io`
+## 🚀 How to Deploy to GitHub Pages
 
 1. Open your terminal in this directory:
    ```bash
    cd /home/nima/Desktop/uni/resume/website
    ```
 
-2. Initialize Git and commit the files:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit of personal academic website"
-   ```
-
-3. Rename the branch to `main`:
-   ```bash
-   git branch -M main
-   ```
-
-4. Connect to your GitHub repository (replace `<username>` if needed):
-   ```bash
-   git remote add origin git@github.com:nimahekmati/nimahekmati.github.io.git
-   ```
-   *(Or using HTTPS: `https://github.com/nimahekmati/nimahekmati.github.io.git`)*
-
-5. Push to GitHub:
+2. Push to GitHub:
    ```bash
    git push -u origin main
    ```
 
-6. Your website will be live in ~30 seconds at:
-   👉 **`https://nimahekmati.github.io/`**
+3. Your website will be live in ~30 seconds at:
+   👉 **`https://nima-hekmati.github.io/`**
 
 ---
 

@@ -1,8 +1,8 @@
 #!/bin/bash
-# Quick deployment script for nimahekmati.github.io
+# Quick deployment script for nima-hekmati.github.io
 set -e
 
-echo "🚀 Preparing deployment for nimahekmati.github.io..."
+echo "🚀 Preparing deployment for nima-hekmati.github.io..."
 
 # Ensure we are in the website directory
 cd "$(dirname "$0")"
@@ -29,7 +29,6 @@ echo ""
 echo "🔗 Current Git Remote Configuration:"
 git remote -v || true
 echo ""
-echo "👉 To link and push to your GitHub Pages repository, run:"
-echo "   git remote add origin git@github.com:nimahekmati/nimahekmati.github.io.git  (or https://github.com/nimahekmati/nimahekmati.github.io.git)"
+echo "👉 To push to your GitHub Pages repository, run:"
 echo "   git push -u origin main"
 echo ""
